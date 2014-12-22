@@ -17,4 +17,8 @@ if (Posts.find().count() === 0) {
     title: 'Ask Your Target Market',
     url: 'http://aytm.com'
   });
+  Posts.insert({
+    title: 'AYTM',
+    url: 'http://aytm.com/pages/board'
+  });
 }
